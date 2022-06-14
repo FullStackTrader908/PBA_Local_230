@@ -1,0 +1,29 @@
+.welcome-banner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 50px 0px 150px; 
+    flex-shrink: 0;
+    /* background-color: red; */
+}
+
+.brick-pd-logo {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+}
+
+.welcome-statement p {
+   color: white;
+   text-align: center;
+   font-size: 25px;
+   font-family: 'Noto Serif', serif;
+   font-weight: 400;
+   margin-
+}
+
+.pba-logo {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+}

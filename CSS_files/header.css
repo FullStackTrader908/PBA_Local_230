@@ -1,0 +1,41 @@
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 175px;
+    position: relative;
+}
+
+/* .member-button {
+    z-index: 30;
+    position: absolute;
+    font-family: 'Noto Serif', serif;
+    background-color: rgb(255, 255, 255);
+    bottom: -10px;
+    right: 0;
+    margin-right: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+} */
+
+.kd213-logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 175px;
+    position: relative;
+    z-index: 20;
+}
+
+.KD213-logo {
+    height: 100%;
+    border-radius: 190px;
+}
+
+.thin-blue-line-container {
+    background-color: blue;
+    color: blue;
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}

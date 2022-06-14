@@ -1,26 +1,12 @@
 body {
-    background-color: rgb(33, 32, 32);
+    background-color: rgb(0, 0, 0);
 }
 
-.welcome-banner-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 250px 50px 250px 50px;
-    
-}
-
-.brick-pd-logo {
-    width: 300px;
-}
-
-.welcome-statement {
-    color: white;
-    margin-left: 10px;
-    margin-right: 10px;
-    width: 100%;
-}
-
-.pba-logo {
-    width: 300px;
+.divider-line {
+    background-color: white;
+    margin-top: 80px;
+    height: 1px;
+    width: 800px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
