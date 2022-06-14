@@ -1,0 +1,44 @@
+body {
+    background-color: black;
+    font-family: 'Sarpanch', sans-serif;
+
+}
+
+header {
+    text-align: center;
+    font-size: 40px;
+}
+
+header p {
+    color: white;
+    margin: 0;
+}
+
+.exec-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 800px;
+    border-style: groove;
+    border-color: rgb(10, 10, 195);
+    border-width: 5px;
+    padding: 60px;
+
+    margin: auto;
+    margin-top: 200px;
+}
+
+.president {
+    background-color: lightblue;
+}
+
+.vice-president {
+    background-color: lightpink;
+}
+
+.treasurer {
+    background-color: red;
+}
+
+.secretary {
+    background-color: green;
+}

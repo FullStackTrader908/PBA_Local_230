@@ -1,5 +1,6 @@
 body {
     background-color: rgb(0, 0, 0);
+    font-family: 'Sarpanch', sans-serif;
 }
 
 .divider-line {
@@ -7,6 +8,27 @@ body {
     margin-top: 80px;
     height: 1px;
     width: 800px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin: 100px auto;
+    margin-bottom: 50px;
+}
+
+.beach-car-container {
+    display: flex;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.beach-car {
+    width: 100%;
+}
+
+.mail-address {
+    position: absolute;
+    width: 300px;
+
+    bottom: 300px;
+    left: 300px;
+
+    color: white;
+    font-size: 30px;
 }
