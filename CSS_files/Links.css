@@ -31,3 +31,14 @@ header p {
 
     color: white;
 }
+
+.social_media {
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+}
+
+.ig_logo {
+    margin-left: 30px;
+    padding-left: 0;
+}

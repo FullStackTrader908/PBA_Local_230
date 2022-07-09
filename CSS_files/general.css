@@ -26,9 +26,46 @@ body {
     position: absolute;
     width: 400px;
 
-    bottom: 300px;
+    bottom: 400px;
     left: 300px;
 
     color: white;
     font-size: 30px;
+}
+
+.social_media {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    flex-shrink: 0;
+
+    top: 100px;
+    left: 453px;
+}
+
+.ig_logo {
+    margin-left: 30px;
+    padding-left: 0;
+}
+
+.follow-us {
+    position: absolute;
+    width: 600px;
+
+    top: 10px;
+    left: 300px;
+
+    color: white;
+    font-size: 30px;
+}
+
+.signature {
+    position: absolute;
+    width: 600px;
+
+    bottom: 0;
+    left: 10px;
+
+    color: rgb(232, 185, 0);
+    font-size: 15px;
 }
